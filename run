@@ -1,5 +1,7 @@
 [default]
 make
+qemu-system-x86_64 out/disk.img
 
 [clean]
 make -B
+qemu-system-x86_64 out/disk.img
